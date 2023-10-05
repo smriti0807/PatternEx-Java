@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+   int n,i,j;
+   printf("enter the size:");
+   scanf("%d",&n);
+   for(i=n;i>=1;i--){
+       for(j=1;j<=n;j++){
+           if((i+j)<=n)
+           printf(" ");
+           else
+           printf("*");
+       }
+       printf("\n");
+   }
+    return 0;
+}
